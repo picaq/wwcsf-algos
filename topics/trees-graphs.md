@@ -1,6 +1,6 @@
 # Trees and Graphs
 
-This is a more advanced topic that builds especially on [Linked Lists](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/linked-lists.md). We recommend that you get comfortable with Linked Lists before tackling trees and graphs. 
+This is a more advanced topic that builds especially on [Linked Lists](https://github.com/WomenWhoCode/wwcsf-algos/blob/main/topics/linked-lists.md). We recommend that you get comfortable with Linked Lists before tackling trees and graphs. 
 
 ## Go to:
  * [Resources](#resources)
@@ -16,7 +16,7 @@ ___
     
 ### 2. Important procedures: traversal, heaps, search, etc.
 * [William Fiset's youtube playlist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P) explaining graph theory topics and algorithms. Not language specific.  
-    * [William Fiset's implementations in Java](https://github.com/williamfiset/Algorithms/tree/master/src/main/java/com/williamfiset/algorithms/graphtheory)
+    * [William Fiset's implementations in Java](https://github.com/williamfiset/Algorithms/tree/main/src/main/java/com/williamfiset/algorithms/graphtheory)
 * [Trees](https://runestone.academy/runestone/books/published/pythonds/Trees/toctree.html) and [Graphs](https://runestone.academy/runestone/books/published/pythonds/Graphs/toctree.html) from _Python DS_ by Brad Miller and David Ranum, code examples in Python
 * [Binary Search Trees](http://greenteapress.com/thinkdast/html/thinkdast014.html) from _Think Data Structures_  by Allen B. Downey, code examples in Java
 * [Breadth-First Search](https://livebook.manning.com/book/grokking-algorithms/chapter-6/4) from _Grokking Algorithms_ by Aditya Y. Bhargava, code examples in Python
