@@ -40,9 +40,10 @@ Problem Statement | Solution | WWC example
 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/validate-binary-search-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
 
 ### Medium problems
-Problem Statement | Solutoin | WWC example
+Problem Statement | Solution | WWC example
 --- | --- | ---
 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [leetcode's endorsed solution](https://leetcode.com/problems/binary-tree-inorder-traversal/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/maximum-binary-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
 
 ### Hard problems
 Problem Statement | Solution | WWC example
@@ -50,8 +51,7 @@ Problem Statement | Solution | WWC example
 [Word Ladder](https://leetcode.com/problems/word-ladder/) | [leetcode's endorsed solution](https://leetcode.com/problems/word-ladder/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
 [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
 
-
-* [Selected leetcode problems](https://leetcode.com/list/?selectedList=xg9na7e1), mixed difficulty
+<br>
 
 * [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart/faq)   
 Note: consider making an account on google kickstart and read through the FAQ's. There is a bit of a learning curve to test your code against their test data. Also, these problems are tricky! "Level 1" does NOT mean easy. That said, these problems are great learning opportunities. The "Analysis" pages are written by Google engineers and provide detailed discussion of brute-force vs. optimized approaches. Solutions are available from top scoring competitors around the world.  
