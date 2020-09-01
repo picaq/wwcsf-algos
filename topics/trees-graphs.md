@@ -32,6 +32,25 @@ ___
 ___
 
 ## Problem Sets
+
+### Easy problems
+Problem Statement | Solution | WWC example
+--- | --- | ---
+[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/symmetric-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/validate-binary-search-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+
+### Medium problems
+Problem Statement | Solutoin | WWC example
+--- | --- | ---
+[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [leetcode's endorsed solution](https://leetcode.com/problems/binary-tree-inorder-traversal/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+
+### Hard problems
+Problem Statement | Solution | WWC example
+--- | --- | ---
+[Word Ladder](https://leetcode.com/problems/word-ladder/) | [leetcode's endorsed solution](https://leetcode.com/problems/word-ladder/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+
+
 * [Selected leetcode problems](https://leetcode.com/list/?selectedList=xg9na7e1), mixed difficulty
 
 * [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart/faq)   
