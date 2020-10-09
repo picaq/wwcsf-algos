@@ -9,8 +9,9 @@ If you're looking for code examples, take a look at the [code examples](https://
 We are looking for your favorite resources and new problem sets, as well as code examples in any language. If you've never contributed to open-source before, let this be your first contribution! [Here's a step by step reference](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/) to contributing.   
 
 ### Contributing to our content pages
-All of our documentation is in Markdown, and most of the issues labeled 'good first issue' involves editing or adding content in Markdown. Here is a good Markdown cheatset:
-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
+All of our documentation is in Markdown, and most of the issues labeled 'good first issue' involves editing or adding content in Markdown. Here is a good Markdown cheatset: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
+
+Our next set of Zoom presentations and practice sessions (through the end of 2020) are on Arrays and Hashmaps. We are looking for help curating good resources  and problems for these event. If you are currently interviewing or have recently finished a stage of interview prep, please consider sharing your favorite videos, articles, and problems on Arrays and Hashmaps! Here is the current state of our [Arrays page](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/arrays-strings.md). We don't have a Hashmaps page, if you would like to start it up, please consider taking on [this issue](https://github.com/WomenWhoCode/wwcsf-algos/issues/48).
 
 ### Contributing to the code examples
 If you are a more advanced coder, we would welcome your help reviewing PRs of code examples. The purpose of the code examples is to provide a best-practices, model solution for a problem or data structure. Currently, most of the outstanding PRs are in C++ and Python. 
