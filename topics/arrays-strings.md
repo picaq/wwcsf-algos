@@ -42,3 +42,21 @@ The more quickly you can memorize patterns for string manipulation, the more cap
 These are selected problems from [leetcode](https://leetcode.com). You may want to create a free account on leetcode to save your solutions and track your progress. 
  * [Arrays, mixed difficulty](https://leetcode.com/list/xkaqgai5)
  * [Strings, mixed difficulty](https://leetcode.com/list/xskj0egv)
+ 
+ Problem Statement | Solution | WWC example
+--- | --- | ---
+[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [leetcode's endorsed solution](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/560/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
+[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [leetcode's endorsed solution](https://leetcode.com/articles/linked-list-cycle/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
+[Delete Node in Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [leetcode's endorsed solution](https://leetcode.com/articles/delete-node-linked-list/#) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
+
+### Medium problems
+Problem Statement | Solution | WWC example
+--- | --- | ---
+[Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [leetcode's endorsed solution](https://leetcode.com/problems/add-two-numbers/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
+[Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [leetcode's endorsed solution](https://leetcode.com/problems/interval-list-intersections/solution/) | please conttribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
+
+### Hard problems
+Problem Statement | Solution | WWC example
+--- | --- | ---
+[Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [leetcode's endorsed solution](https://leetcode.com/problems/median-of-two-sorted-arrays/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
+[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [leetcode's endorsed solution](https://leetcode.com/problems/maximal-rectangle/solution/) | please conttribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
