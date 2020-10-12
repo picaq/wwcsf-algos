@@ -16,17 +16,17 @@ ___
 ### Easy problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-Problem Statement Link | Solution Link | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
+[Problem statement link](http://google.com/) | [Solution link](http://google.com/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
 
 
 ### Medium problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-Problem Statement Link | Solution Link | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
+[Problem statement link](http://google.com/) | [Solution link](http://google.com/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
 
 
 ### Hard problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-Problem Statement Link | Solution Link | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
+[Problem statement link](http://google.com/) | [Solution link](http://google.com/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
 
