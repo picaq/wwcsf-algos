@@ -44,26 +44,19 @@ ___
 Problem Statement | Solution | WWC example
 --- | --- | ---
 [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/symmetric-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
-[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/validate-binary-search-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/invert-binary-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
 
 ### Medium problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [leetcode's endorsed solution](https://leetcode.com/problems/binary-tree-inorder-traversal/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
-[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/maximum-binary-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Word Ladder](https://leetcode.com/problems/word-ladder/) | [leetcode's endorsed solution](https://leetcode.com/problems/word-ladder/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [leetcode's endorsed solution](https://leetcode.com/problems/course-schedule-ii/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
 
 ### Hard problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[Word Ladder](https://leetcode.com/problems/word-ladder/) | [leetcode's endorsed solution](https://leetcode.com/problems/word-ladder/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
-[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
-
-<br>
-
-* [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart/faq)   
-Note: consider making an account on google kickstart and read through the FAQ's. There is a bit of a learning curve to test your code against their test data. Also, these problems are tricky! "Level 1" does NOT mean easy. That said, these problems are great learning opportunities. The "Analysis" pages are written by Google engineers and provide detailed discussion of brute-force vs. optimized approaches. Solutions are available from top scoring competitors around the world.  
-    * [Planet Distance](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee0/0000000000051005) - Level 1 - Depth First Search, Breadth First Search
-    * [Candies](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee1/00000000000510ef) - Level 1 - Balanced Binary Search Tree
-    * [Cherries Mesh](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edb/0000000000170721)- Level 1 - Minimum Spanning Tree (Prim/Dijkstra), Spanning Forests
-    * [Parcels](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01/000000000006987d) - Level 2 -  Breadth First Search
-    * [Cave Escape](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051066/0000000000051135) - Level 3 - Dijikstra
+[Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/sum-of-distances-in-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | [leetcode's endorsed solution](https://leetcode.com/problems/binary-tree-cameras/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [leetcode's endorsed solution](https://leetcode.com/problems/longest-consecutive-sequence/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
