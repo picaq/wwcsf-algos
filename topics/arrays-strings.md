@@ -60,4 +60,4 @@ Problem Statement | Solution | WWC example
 Problem Statement | Solution | WWC example
 --- | --- | ---
 [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [leetcode's endorsed solution](https://leetcode.com/problems/median-of-two-sorted-arrays/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/array)
-[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [leetcode's endorsed solution](https://leetcode.com/problems/maximal-rectangle/solution/) | please conttribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/array)
+[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [leetcode's endorsed solution](https://leetcode.com/problems/maximal-rectangle/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/array)
