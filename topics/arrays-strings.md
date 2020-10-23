@@ -54,7 +54,7 @@ These are selected problems from [leetcode](https://leetcode.com). You may want 
 Problem Statement | Solution | WWC example
 --- | --- | ---
 [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [leetcode's endorsed solution](https://leetcode.com/problems/add-two-numbers/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/array)
-[Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [leetcode's endorsed solution](https://leetcode.com/problems/interval-list-intersections/solution/) | please conttribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/array)
+[Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [leetcode's endorsed solution](https://leetcode.com/problems/interval-list-intersections/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/array)
 
 ### Hard Problems
 Problem Statement | Solution | WWC example
