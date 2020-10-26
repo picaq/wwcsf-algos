@@ -13,6 +13,13 @@ ___
 ### 1. Basics and terminology
 * [Harvard CS50 2019 Data Structures lecture](https://www.youtube.com/watch?v=4IrUAqYKjIA&t=4104s) You can skip ahead to 1:09:32 for trees, but I recommend watching the lecture from the beginning. The language is C, but the explanation and examples don't depend on a knowledge of C. 
 * Helpful list of terms and definitions from wikiversity: https://en.wikiversity.org/wiki/Data_Structures_and_Algorithms/Trees_and_Graphs
+* Chapter links from __Algorithms__ by Jeff Erickson.  
+     * [Basic Graph Algorithm](http://jeffe.cs.illinois.edu/teaching/algorithms/book/05-graphs.pdf)  
+     * [Depth-First Search](http://jeffe.cs.illinois.edu/teaching/algorithms/book/06-dfs.pdf)  
+     * [Minimum Spanning Trees](http://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf)  
+     * [Shortest Paths](http://jeffe.cs.illinois.edu/teaching/algorithms/book/08-sssp.pdf)          
+             
+    
     
 ### 2. Important procedures: traversal, heaps, search, etc.
 * [William Fiset's youtube playlist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P) explaining graph theory topics and algorithms. Not language specific.  
@@ -32,7 +39,26 @@ ___
 ___
 
 ## Problem Sets
-* [Selected leetcode problems](https://leetcode.com/list/?selectedList=xg9na7e1), mixed difficulty
+
+### Easy problems
+Problem Statement | Solution | WWC example
+--- | --- | ---
+[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/symmetric-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/validate-binary-search-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+
+### Medium problems
+Problem Statement | Solution | WWC example
+--- | --- | ---
+[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [leetcode's endorsed solution](https://leetcode.com/problems/binary-tree-inorder-traversal/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/maximum-binary-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+
+### Hard problems
+Problem Statement | Solution | WWC example
+--- | --- | ---
+[Word Ladder](https://leetcode.com/problems/word-ladder/) | [leetcode's endorsed solution](https://leetcode.com/problems/word-ladder/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [leetcode's endorsed solution](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/trees)
+
+<br>
 
 * [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart/faq)   
 Note: consider making an account on google kickstart and read through the FAQ's. There is a bit of a learning curve to test your code against their test data. Also, these problems are tricky! "Level 1" does NOT mean easy. That said, these problems are great learning opportunities. The "Analysis" pages are written by Google engineers and provide detailed discussion of brute-force vs. optimized approaches. Solutions are available from top scoring competitors around the world.  
