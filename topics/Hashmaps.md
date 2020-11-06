@@ -24,7 +24,7 @@ ___
 ### Easy problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[Two Sum](https://leetcode.com/problems/two-sum/) | [leetcode's endorsed solution](https://leetcode.com/problems/two-sum/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
+[Two Sum](https://leetcode.com/problems/two-sum/) | [leetcode's endorsed solution](https://leetcode.com/problems/two-sum/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
 [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [leetcode's endorsed solution](https://leetcode.com/problems/first-unique-character-in-a-string/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
 [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [leetcode's endorsed solution](https://leetcode.com/problems/intersection-of-two-arrays-ii/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/linked-lists)
 
