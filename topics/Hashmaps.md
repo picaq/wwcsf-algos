@@ -31,11 +31,11 @@ Problem Statement | Solution | WWC example
 ### Medium problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [leetcode's endorsed solution](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/) | please contribute your solution to our [code examples!]((https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
-[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [leetcode's endorsed solution](https://leetcode.com/problems/top-k-frequent-words/solution/) | please contribute your solution to our [code examples!]((https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
+[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [leetcode's endorsed solution](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
+[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [leetcode's endorsed solution](https://leetcode.com/problems/top-k-frequent-words/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
 
 ### Hard problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[LFU Cache](https://leetcode.com/problems/lfu-cache/) | [leetcode's endorsed solution](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/) | please contribute your solution to our [code examples!]((https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
-[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [leetcode's endorsed solution](https://leetcode.com/problems/maximum-frequency-stack/solution/) | please contribute your solution to our [code examples!]((https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
+[LFU Cache](https://leetcode.com/problems/lfu-cache/) | [leetcode's endorsed solution](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
+[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [leetcode's endorsed solution](https://leetcode.com/problems/maximum-frequency-stack/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)

@@ -60,6 +60,7 @@ These are a list of free online textbooks, video lectures, and visualizations. I
 6. [Backtracking](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/backtracking.md)
 7. [Dynamic Programming](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/dynamic-programming.md)
 8. [Design](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/design.md)
+9. [Hashmaps](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/hashmaps.md)
 
 ---
 
