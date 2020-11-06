@@ -37,4 +37,4 @@ Problem Statement | Solution | WWC example
 ### Hard problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[LFU Cache](https://leetcode.com/problems/lfu-cache/) | [leetcode's endorsed solution](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/) | please contribute your solution to our [code examples!]()
+[LFU Cache](https://leetcode.com/problems/lfu-cache/) | [leetcode's endorsed solution](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/) | please contribute your solution to our [code examples!]((https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
