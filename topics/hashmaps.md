@@ -37,5 +37,5 @@ Problem Statement | Solution | WWC example
 ### Hard problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[LFU Cache](https://leetcode.com/problems/lfu-cache/) | [leetcode's endorsed solution](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
+[LFU Cache](https://leetcode.com/problems/lfu-cache/) | [solution discussion on leetcode](https://leetcode.com/problems/lfu-cache/discuss/?currentPage=1&orderBy=most_votes&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
 [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [leetcode's endorsed solution](https://leetcode.com/problems/maximum-frequency-stack/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/hashmaps)
