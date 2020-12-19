@@ -3,18 +3,21 @@
 ## Go to:
  * [Resources](#resources)
  * [Problem Sets](#problem-sets)
+   * [Beginner Exercises](#Beginner-Exercises)
+   * [Intermediate Exercises](#Intermediate-Exercises)
+   * [Advanced Exercises](#Advanced-Exercises)
 
 ___
 
 ## Resources
 
-### Resources for beginners
+### Beginner resources
 - [Big O Notation, Gayle Laakmann McDowell](https://youtu.be/v4cd1O4zkGw): A short video that focuses on conceptual understanding and provides rules of thumb for evaluating run-time
 - [Introduction to Big-O, William Fiset](https://youtu.be/zUUkiEllHG0): A good conceptual introduction with worked-through problems and solutions.
 - [A Beginner’s Guide to Big O Notation- Part 1](https://medium.com/better-programming/a-beginners-guide-to-big-o-notation-pt-1-19ec031b698b): An introduction to time complexity with help from Ratatouille
 - [A Beginner’s Guide to Big O Notation- Part 2](https://medium.com/swlh/a-beginners-guide-to-big-o-notation-part-2-c4ede76cea36): An introduction to time complexity with help from Ratatouille
 
-### Resources for intermediate and advanced coders
+### Intermediate and Advanced Resources
 - [Lecture on Asymptotic Notation - Recurrences - Substitution, Master Method, Prof. Erik Demaine, MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/lecture-2-asymptotic-notation-recurrences-substitution-master-method/)
 - [Lecture on Divide-and-Conquer: Strassen, Fibonacci, Polynomial Multiplication, Prof. Erik Demaine, MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/lecture-3-divide-and-conquer-strassen-fibonacci-polynomial-multiplication/)
 ### Special topics
@@ -24,40 +27,109 @@ ___
 ___
 
 ## Problem Sets
-### Beginner exercises
+### Beginner Exercises
 
-Goals for beginners:  
+#### Learning Goals  
 1. Learn definitions of upper bound(Big-O), tight bound (Big-Theta), and lower bound(Big-Omega). What kind of bound do we usually mean by the term 'Big-O'? 
 2. Given any function, learn how to drop constants and non-dominant terms to obtain a Big-O bound on that function.
 3. Practice analyzing loop structures for run-time.
 
+#### Exercises
 
-Problem Statement | Solution | WWC example
---- | --- | ---
-[Problem statement link](http://google.com/) | [Solution link](http://google.com/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+1. Provide a tight upper bound on the runtime of the following pseudocode blocks, as a function of the input size *n*. 
 
+    a. 
+    ``` 
+    sum = 0
+    for (i=0; i < n; i++)
+        sum += array[i]
+    return sum
+    ```
+
+    b. 
+    ```
+    pairs = []
+    for (i=0; i < n; i++)
+        for (j=0; j <n; j++)
+            pairs.append([i,j])
+    ```
+    c. 
+
+    ```
+    result = 0
+    for (i = 0; i < (n / 2); i++)
+        for (j = 0; j < 1000i; j++)
+            result += i + j
+    for (k = 0; k < 500n; k++)
+        result -= k
+    ```
+
+    d.
+    ```
+    def isPrime(n)
+        for (i = 2; i*i <= n, i++)
+            if (n % i) != 0
+                return False
+        return True
+    ```
+2. Write a recursive program that prints out the first *n* fibonacci numbers. What is an upper bound on its run time? Now write an iterative version. How does the runtime improve?
+
+3. With a partner, discuss a lower bound, an upper bound, and a tight bound on a trip you take often. What factors determine your estimated travel time for each analysis? How do these relate to the concepts of best case, worst case, and average case run time?
+
+4. Write an code block that runs in O(n<sup>2</sup>), and another code block that runs in O(n). Can you alter the second code block so that it is slower than the first code block for some number x, 0 < n <= x?
+
+---
 
 ### Intermediate exercises
 
-Goals for intermediate coders:
-1. Memorize orders of growth for canonical functions.  
-2. Practice analyzing recursive algorithms, be able to compare runtime to an iterative translation.
-3. Understand the common run-times with logarithms.
-4. Memorize run-times for sorts, searches, traversals, and retrievals for various algorithms and Data Structures.
-5. Practice accounting for space used during computation. 
+#### Learning Goals
+1. Memorize orders of growth for classes of functions.  
+2. Understand the common run-times with logarithms: O(logn) and O(nlogn).
+3. Memorize run-times for sorts, searches, traversals, and retrievals for various algorithms and Data Structures.
+4. Practice determining the space used during computation.
 
-Problem Statement | Solution | WWC example
---- | --- | ---
-[Problem statement link](http://google.com/) | [Solution link](http://google.com/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+#### Exercises
+1. Review this list classes of functions, ordered from slowest growing to fastest growing. Where would in the list would you insert O(nlogn), also called [log-linear](https://en.wikipedia.org/wiki/Time_complexity#Linearithmic_time) time? Try graphing the functions with [Wolfram Alpha](https://www.wolframalpha.com) to check your answer. (Hint: try entering "plot x log x and x^2 from -1 to 10")
 
+Class | Big-O(n)
+---|---
+Constant | O(1)
+Logarithmic | O(logn)
+Linear | O(n) 
+Quadratic | O(n<sup>2</sup>)
+Cubic | O(n<sup>3</sup>)
+Polynominal | O(nk), k > 0
+Exponential | O(k<sup>n</sup>), k >1
+Factorial | O(n!)
+
+2. Write psuedocode that implements binary search. Provide a tight upper bound on its run-time.
+
+3. Write pseudocode that implements merge sort. Provide a tight upper bound on its run-time.
+---
 
 ### Advanced Exercises
-Goals for Advanced coders:
-1. Learn about formal methods to solve recurrences, (those you would find in a textbook or university Algorithms class: Subsitution, Iteration, Master Method). 
+#### Learning Opportunities
+1. Explore the formal methods you can use to solve recurrences, (those you would find in a textbook or university Algorithms class, like Substitution, Iteration, Master Method). 
 2. Know various techniques to trade off time for space, such as hash tables, heaps, sorting.
-4. Understand amortized analysis and its applications to various data structures.
-5. Memorize various patterns that are common run-times, such as a geometric series, arithmetic series. 
+3. Understand amortized analysis and its applications to various data structures.
+4. Memorize various patterns that are common run-times, such as a geometric series, arithmetic series. 
 
-Problem Statement | Solution | WWC example
---- | --- | ---
-[Problem statement link](http://google.com/) | [Solution link](http://google.com/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+#### Exercises
+
+1. Provide a common algorithm, data structure operation, or generate a code block that runs in the following run-times:  
+    a. O(nlogn)  
+    b. O(logn)  
+    c. O(A + B)  
+
+2. Provide pseuodocode and run-time for an optimal algorithm that implements the following common operations:  
+    a. Generate all permutations  
+    b. Generate all pairs  
+    c. Generate all triples  
+    d. Generate all (ordered) substrings/subarrays  
+    e. Generate all subsets  
+
+Note: Constraints are not specified on purpose, since they vary with the problem. Try coming up with your own constraints and testing if they would affect run time. 
+
+3. Describe an array resizing scheme such that append operations take constant time, amortized. Can you demonstrate that append operations will take constant time as *n* grows large?
+
+4. Compare naive n-bit multiplication with Karatsuba multiplication and compare the run times
