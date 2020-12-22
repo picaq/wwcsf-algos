@@ -61,6 +61,7 @@ These are a list of free online textbooks, video lectures, and visualizations. I
 7. [Dynamic Programming](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/dynamic-programming.md)
 8. [Design](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/design.md)
 9. [Hashmaps](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/hashmaps.md)
+10. [Big-O](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/big-O.md)
 
 ---
 
