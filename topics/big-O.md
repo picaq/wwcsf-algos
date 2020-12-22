@@ -19,6 +19,7 @@ ___
 - [A Beginner’s Guide to Big O Notation- Part 2](https://medium.com/swlh/a-beginners-guide-to-big-o-notation-part-2-c4ede76cea36): An introduction to time complexity with help from Ratatouille
 
 ### Intermediate and Advanced Resources
+- [Back to Back SWE: Deeply Understanding Logarithms In Time Complexities & Their Role In Computer Science](https://youtu.be/M4ubFru2O80)
 - [Lecture on Asymptotic Notation - Recurrences - Substitution, Master Method, Prof. Erik Demaine, MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/lecture-2-asymptotic-notation-recurrences-substitution-master-method/)
 - [Lecture on Divide-and-Conquer: Strassen, Fibonacci, Polynomial Multiplication, Prof. Erik Demaine, MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/lecture-3-divide-and-conquer-strassen-fibonacci-polynomial-multiplication/)
 ### Special topics
