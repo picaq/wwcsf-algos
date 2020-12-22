@@ -120,7 +120,7 @@ Logarithmic | O(logn)
 Linear | O(n) 
 Quadratic | O(n<sup>2</sup>)
 Cubic | O(n<sup>3</sup>)
-Polynominal | O(ns<sup>k</sup>), k > 0
+Polynominal | O(n<sup>k</sup>), k > 0
 Exponential | O(k<sup>n</sup>), k >1
 Factorial | O(n!)
 
