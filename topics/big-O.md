@@ -15,6 +15,7 @@ ___
 - [Big O Notation, Gayle Laakmann McDowell](https://youtu.be/v4cd1O4zkGw): A short video that focuses on conceptual understanding and provides rules of thumb for evaluating run-time
 - [Introduction to Big-O, William Fiset](https://youtu.be/zUUkiEllHG0): A good conceptual introduction with worked-through problems and solutions.
 - [Asymptotic Notation, Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation): A good introduction to academic definitions of Big-O, Big-Theta, and Big-Omega. 
+- [Big-O, from B Building Blocks for Theoretical Computer Science, Margaret M. Fleck ](http://mfleck.cs.illinois.edu/building-blocks/version-1.3/big-o.pdf): There may come a time in your learning when you are correctly figuring out the Big-O of any non-recursive code block, but you feel like you understand even less than you did before! If you find yourself asking baffling questions like "but what even is equality?", it's time for you to to read this chapter.
 - [A Beginner’s Guide to Big O Notation- Part 1](https://medium.com/better-programming/a-beginners-guide-to-big-o-notation-pt-1-19ec031b698b): An introduction to time complexity with help from Ratatouille
 - [A Beginner’s Guide to Big O Notation- Part 2](https://medium.com/swlh/a-beginners-guide-to-big-o-notation-part-2-c4ede76cea36): An introduction to time complexity with help from Ratatouille
 
