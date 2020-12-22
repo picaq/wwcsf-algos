@@ -20,6 +20,7 @@ ___
 
 ### Intermediate and Advanced Resources
 - [Back to Back SWE: Deeply Understanding Logarithms In Time Complexities & Their Role In Computer Science](https://youtu.be/M4ubFru2O80)
+- [Recurrences, from Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/99-recurrences.pdf): Start here to learn how to solve a recurrence (how to write the Big-O for a recursive algorithm in a closed form strictly in terms of the input size *n*). 
 - [Lecture on Asymptotic Notation - Recurrences - Substitution, Master Method, Prof. Erik Demaine, MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/lecture-2-asymptotic-notation-recurrences-substitution-master-method/)
 - [Lecture on Divide-and-Conquer: Strassen, Fibonacci, Polynomial Multiplication, Prof. Erik Demaine, MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/lecture-3-divide-and-conquer-strassen-fibonacci-polynomial-multiplication/)
 ### Special topics
