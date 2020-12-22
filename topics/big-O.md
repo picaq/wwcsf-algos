@@ -167,10 +167,10 @@ for (i = 0; i < n; i++)
 
 3. Describe an array resizing scheme such that append operations take constant time, amortized. Can you demonstrate that append operations will take constant time as *n* grows large?
 
-4. Compare naive n-bit multiplication with [Karatsuba multiplication](https://en.wikipedia.org/wiki/Karatsuba_algorithm) and compare the run times. See [pseudocode for the Karastuba algorithm here](https://aaronoah.gitbooks.io/algorithm-cracker/content/divide-and-conquer/multiplication.html). Hint: Write a recurrence relation for each algorithm. The Master Method can apply to the recurrence. 
+4. Compare naive n-bit multiplication with [Karatsuba multiplication](https://en.wikipedia.org/wiki/Karatsuba_algorithm) and compare the run times. See [pseudocode for the Karastuba algorithm here](https://aaronoah.gitbooks.io/algorithm-cracker/content/divide-and-conquer/multiplication.html). Hint: Write a recurrence relation for each algorithm. The recurrence is solvable with the Master Method.
 
 5. (Hard!) How many ways are there to write a valid string of balanced parantheses with *n* opening parantheses characters '(' and *n* closing parantheses? '('? For an example leetcode problem that applies this concept, see [Leetcode #241: Different Ways to Add Parantheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)
-Hint: Don't be satisfied with an upper bound! Can you get it tighter by evaluating the sequence as a sum in terms of the first *n* terms?  
+Hint: You might see an unfamiliar sequence of integers emerge. In an interview setting, you can and should take an upper bound on this sequence to give an answer to the Big-O runtime. For this exploration, can you explore the sequence, leave it in a non-closed form, and explore its possible applications?
 
 #### Solutions
 1a. Merge Sort   1b.  Binary Search  1c. Breadth-first-search over a graph, where A = nodes and B = edges.  
@@ -179,47 +179,32 @@ Hint: Don't be satisfied with an upper bound! Can you get it tighter by evaluati
 
 2b. Generating all triples takes O(n<sup>3</sup>). If that looks like overkill, it's usually because it is. Usually you are looking to filter the possible triples, so you might need to look at all pairs first and memoize their results, reducing your runtime to something in O(n<sup>2</sup>). For an example that optimizes over the brute force solution, see [Geeks for Geeks find a triplet that sum to a given value.](https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/)
 
-2c. There are O(n<sup>2</sup>) substrings or subarrays. See [Geeks for Geeks: Print Substrings](https://www.geeksforgeeks.org/program-print-substrings-given-string/). This is another common pattern that might be overkill for your application. Consider the [Suffix Tree](https://en.wikipedia.org/wiki/Suffix_tree) as an alternative for generating the space of substrings in linear time.  
+2c. There are O(n<sup>2</sup>) substrings or subarrays. See [Geeks for Geeks: Print Substrings](https://www.geeksforgeeks.org/program-print-substrings-given-string/). This is another common pattern that might be overkill for your application. Consider the [Suffix Tree](https://en.wikipedia.org/wiki/Suffix_tree) as an alternative for generating a searchable tree of substrings in linear time.  
 
 2d. For every element in the input set, the element will either be in a subset or not, so there are O(2<sup>n</sup>) subsets. See [Geeks for Geeks: Backtracking to find all subsets](https://www.geeksforgeeks.org/backtracking-to-find-all-subsets/) for code examples. Again, this is a large growth rate, so you may want to consider whether you need all possible subsets for your problem application.
 
-3. The textbook strategy is to allocate a new array of double the capacity of the original array, and then copy over every element to the new, doubled array. Without knowing the size of the array ahead of time, the doubling and copying will occur every time capactity reaches a power of two; so at append operations for elements 1, 2, 4, 8, 18, 32, 64... The tricky part is to realize that the number of times you need to recopy previous elements to a new array grows far more slowly as the number of elements grows. To demonstrate this pattern, you might try counting out the costs of pushing to an array for the first 50 elements, given a starting capacity of 8:
+3. The textbook strategy is to allocate a new array of double the capacity of the original array, and then copy over every element to the new, doubled array. Without knowing the size of the array ahead of time, the doubling and copying will occur every time capactity reaches a power of two; so at push operations for elements numbered 1, 2, 4, 8, 18, 32, 64...n  
 
-```
-    50 consecutive push operations
-        First 8 items pushed = cost 1 X 8 items =               cost 8
-        9th item pushed = cost 1 + (cost 1 x 8 items moved) =   cost 9          ; array doubles to capacity 16
-        10th - 16th items pushed = cost 1 x  7 items =          cost 7
-        17th item pushed = cost 1 + (cost 1 x 16 items moved) = cost 17         ; array doubles to capacity 32
-        18th - 32nd items pushed = cost 1 x 15 items =          cost 15
-        33rd item pushed = cost 1 + (cost 1 x 32 items moved) = cost 33         ; array doubles to capacity 64
-        34th - 50th items pushed = cost 1 x 17 items =          cost 17
+    Let's count! How many pushes are expensive, that is, they trigger the doubling and reassignment of all elements pushed so far? An expensive push occurs every power of 2 until we have pushed all *n* elements. There are lgn powers of 2 (in this discussion lg refers to the base 2 logarithm)  All other pushes are inexpensive pushes, so there are n - lgn inexpensive pushes. Thus we have: 
 
-        TOTAL                                                   cost 106
-        AVERAGE                                                 cost 2.12
-```
+    - (lgn) Expensive pushes occuring at powers of 2.  
+        - For every expensive push, we have to copy over the items we have pushed so far. Let's add these up, for all powers of 2 <= n:
+            - **1 + 2 + 4 + 8  + ...2^(lgn)**
+        - This sum works out to **2^(lgn + 1) - 1** 
+            - To see why this is, check out [this post on summing the first x powers of 2](https://math.stackexchange.com/questions/1990137/the-idea-behind-the-sum-of-powers-of-2)
+        - Total cost for all expensive pushes is **2^(lgn + 1) - 1**
 
-Let's count! How many pushes are expensive, that is, they trigger the doubling and reassignment of all elements pushed so far? An expensive push occurs about every power of 2 until we have pushed all *n* elements. There are lgn powers of 2 (lg meaning the base 2 logarithm!)  The inexpensive pushes occur the rest of the time, so there are n - log_n inexpensive pushes. Thus we have: 
+    - (n - lgn) Inexpensive pushes, these each cost 1. Total cost for all inexpensive pushes is **n - lgn**
 
-- (lgn) Expensive pushes occuring at powers of 2.  
-    - For every expensive push, we have to copy over the items we have pushed so far. Let's add these up, for all powers of 2 <= n = **1 + 2 + 4 + 8  + ...2^(lgn)**
-    - This sum works out to **2^(lgn + 1) - 1** 
-        - To see why this is, check out [this post on summing the first x powers of 2](https://math.stackexchange.com/questions/1990137/the-idea-behind-the-sum-of-powers-of-2)
-    - Total cost is **2^(lgn + 1) - 1**
+    Add the expensive and inexpensive pushes to get the total time for **n** pushes, and find an upper bound on that time:  
+        2^(lgn + 1) - 1 + n - lgn =  
+        2^lgn * 2 - 1 + n - lgn =  
+        2n - 1 + n - lgn  =  
+        3n - lgn - 1 =  
+        **O(3n)**
 
-- (n - lgn) Inexpensive pushes, these each cost 1. Total cost is **n - lgn**
-
-Add the expensive and inexpensive pushes to get the total time for **n** pushes, and find an upper bound on that time:  
-2^(lgn + 1) - 1 + n - lgn =  
-2^lgn * 2 - 1 + n - lgn =
-2n - 1 + n - lgn  = 
-3n - lgn - 1 = 
-**O(3n)**
-
-Divide the Big-O total time for n elements, by n, to get the amortized cost of a push for a single element. This is O(3n) / n, so we will get O(1) amortized time for each push. 
-
-
+    Divide the Big-O total time for n elements, by n, to get the amortized cost of a push for a single element. This is O(3n) / n, so we will get O(1) amortized time for each push.
 
 4. View a walk-through of the recurrence solution here: [Princeton CS Integer Multiplication Slides](https://www.cs.princeton.edu/~wayne/teaching/multiply.pdf).
 
-5. Perhaps during your analysis, you came up with the puzzling pattern 1, 1, 2,5, 14, 42... not quite O(n<sup>2</sup>), though it is correct. Congratulations, you discovered the Catalan series for yourself! See a good discussion of the solution here on [brilliant.org](https://brilliant.org/wiki/catalan-numbers/#dyck-paths-and-acceptable-sequences) (You may need to make an account).
+5. Perhaps during your analysis, you came up with the puzzling pattern 1, 1, 2, 5, 14, 42... not quite O(n<sup>2</sup>), though it is correct that O(n<sup>2</sup>) is an upper bound. Congratulations, you discovered the [Catalan series](https://en.wikipedia.org/wiki/Catalan_number) for yourself! See a good discussion of the solution here on [brilliant.org](https://brilliant.org/wiki/catalan-numbers/#dyck-paths-and-acceptable-sequences) (You may need to make an account).
