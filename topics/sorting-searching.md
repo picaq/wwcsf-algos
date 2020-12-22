@@ -24,17 +24,21 @@ ___
 ### Easy problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[Problem statement link](http://google.com/) | [Solution link](http://google.com/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Solution link](https://leetcode.com/problems/first-bad-version/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Solution discussion](https://leetcode.com/problems/merge-sorted-array/discuss/?currentPage=1&orderBy=most_votes&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
 
 
 ### Medium problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[Problem statement link](http://google.com/) | [Solution link](http://google.com/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Sort Colors](https://leetcode.com/problems/sort-colors/) | [Solution discussion](https://leetcode.com/problems/sort-colors/discuss/?currentPage=1&orderBy=most_votes&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Solution discussion](https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Search in a Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution discussion](https://leetcode.com/problems/search-in-rotated-sorted-array/discuss/?currentPage=1&orderBy=most_votes&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
 
 
 ### Hard problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[Problem statement link](http://google.com/) | [Solution link](http://google.com/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
-
+[Kth smallest element in a sorted matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution discussion](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/discuss/?currentPage=1&orderBy=most_votes&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Solution discussion](https://leetcode.com/problems/wiggle-sort-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Solution link](https://leetcode.com/problems/median-of-two-sorted-arrays/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
