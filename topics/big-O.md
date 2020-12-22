@@ -14,6 +14,7 @@ ___
 ### Beginner resources
 - [Big O Notation, Gayle Laakmann McDowell](https://youtu.be/v4cd1O4zkGw): A short video that focuses on conceptual understanding and provides rules of thumb for evaluating run-time
 - [Introduction to Big-O, William Fiset](https://youtu.be/zUUkiEllHG0): A good conceptual introduction with worked-through problems and solutions.
+- [Asymptotic Notation, Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation): A good introduction to academic definitions of Big-O, Big-Theta, and Big-Omega. 
 - [A Beginner’s Guide to Big O Notation- Part 1](https://medium.com/better-programming/a-beginners-guide-to-big-o-notation-pt-1-19ec031b698b): An introduction to time complexity with help from Ratatouille
 - [A Beginner’s Guide to Big O Notation- Part 2](https://medium.com/swlh/a-beginners-guide-to-big-o-notation-part-2-c4ede76cea36): An introduction to time complexity with help from Ratatouille
 
@@ -43,6 +44,8 @@ ___
     sum = 0
     for (i=0; i < n; i++)
         sum += array[i]
+    for (j=0;j < n; j++)
+        sum -= j
     return sum
     ```
 
@@ -68,11 +71,10 @@ ___
     ```
     def isPrime(n)
         for (i = 2; i*i <= n, i++)
-            if (n % i) != 0
+            if (n % i) == 0
                 return False
         return True
     ```
-2. Write a recursive program that prints out the first *n* fibonacci numbers. What is an upper bound on its run time? Now write an iterative version. How does the runtime improve?
 
 3. With a partner, discuss a lower bound, an upper bound, and a tight bound on a trip you take often. What factors determine your estimated travel time for each analysis? How do these relate to the concepts of best case, worst case, and average case run time?
 
@@ -102,9 +104,19 @@ Polynominal | O(nk), k > 0
 Exponential | O(k<sup>n</sup>), k >1
 Factorial | O(n!)
 
-2. Write psuedocode that implements binary search. Provide a tight upper bound on its run-time.
+2. What does the code block below do? What is its runtime? Memorize this pattern!
+```
+pairs = []
+for (i = 0; i < n; i++)
+    for (j=i+1; j < n; j++)
+        pairs.append([i,j])
+```
 
-3. Write pseudocode that implements merge sort. Provide a tight upper bound on its run-time.
+3. Write psuedocode that implements binary search. Provide a tight upper bound on its run-time.
+
+4. Write pseudocode that implements merge sort. Provide a tight upper bound on its run-time.
+
+5. Write a recursive program that prints out the first *n* fibonacci numbers. What is an upper bound on its run time? Now write an iterative version. How does the runtime improve?
 ---
 
 ### Advanced Exercises
@@ -122,14 +134,15 @@ Factorial | O(n!)
     c. O(A + B)  
 
 2. Provide pseuodocode and run-time for an optimal algorithm that implements the following common operations:  
-    a. Generate all permutations  
-    b. Generate all pairs  
-    c. Generate all triples  
-    d. Generate all (ordered) substrings/subarrays  
-    e. Generate all subsets  
-
-Note: Constraints are not specified on purpose, since they vary with the problem. Try coming up with your own constraints and testing if they would affect run time. 
+    a. Generate all permutations
+    b. Generate all triples  
+    c. Generate all (ordered) substrings/subarrays  
+    d. Generate all subsets
 
 3. Describe an array resizing scheme such that append operations take constant time, amortized. Can you demonstrate that append operations will take constant time as *n* grows large?
 
-4. Compare naive n-bit multiplication with Karatsuba multiplication and compare the run times
+4. Compare naive n-bit multiplication with [Karatsuba multiplication](https://en.wikipedia.org/wiki/Karatsuba_algorithm) and compare the run times. See [pseudocode for the Karastuba algorithm here](https://aaronoah.gitbooks.io/algorithm-cracker/content/divide-and-conquer/multiplication.html). Hint: Write a recurrence relation for each algorithm. The Master Method can apply to the recurrence. View a walk-through of the recurrence solution here: [](https://www.cs.princeton.edu/~wayne/teaching/multiply.pdf)
+
+5. (Hard!) How many ways are there to write a valid string of balanced parantheses with *n* opening parantheses characters '(' and *n* closing parantheses? '('? For an example leetcode problem that applies this concept, see [Leetcode #241: Different Ways to Add Parantheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)
+Hint: Don't be satisfied with an upper bound! Can you get it tighter by evaluating the sequence as a sum in terms of the first *n* terms?  
+See a good discussion of the solution here on [brilliant.org](https://brilliant.org/wiki/catalan-numbers/#other-appearances-of-the-catalan-numbers) (You may need to make an account).
