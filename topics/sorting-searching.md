@@ -15,7 +15,7 @@ ___
     - [Heaps](https://youtu.be/t0Cq6tVNRBA)
     - [Graph Search](https://youtu.be/zaBhtODEL0w)
 - [Chapter 11, Sorting Algorithms, from Open Data Structures by Pat Morin](http://opendatastructures.org/ods-python/11_Sorting_Algorithms.html): Sorts explained with python-like pseudocode. For java and c++, see [here](http://opendatastructures.org/)
-- [Chatper 10, Hepas, from Open Data Structures from Pat Morin](http://opendatastructures.org/ods-python/10_Heaps.html)
+- [Chatper 10, Heaps, from Open Data Structures from Pat Morin](http://opendatastructures.org/ods-python/10_Heaps.html)
 - [Sorting Module on VisuAlgo](https://visualgo.net/en/sorting?slide=1): It's here! A module dedicated entirely to animated, interactive, sorts! To get the most out of this resource, I recommend going through the guided interaction at least once. Read all the text, and keep clicking "Next" (don't click "Esc" early). 
 ___
 
