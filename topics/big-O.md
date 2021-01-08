@@ -79,7 +79,7 @@ ___
         return True
     ```
 
-2. With a partner, discuss a lower bound, an upper bound, and a tight bound on a trip you take often, such as a commute. What factors determine your estimated travel time for each analysis? How do these relate to the concepts of best case, worst case, and average case run time?
+2. With a partner, discuss a lower bound, an upper bound, and a tight bound on a trip you take often, such as a commute. What factors determine your estimated travel time for each analysis? For the tight bound, what factors did you consider?
 
 3. Write an code block that runs in O(n<sup>2</sup>), and another code block that runs in O(n). Can you alter the second code block so that it is slower than the first code block for some number x, 0 < n <= x?
 
