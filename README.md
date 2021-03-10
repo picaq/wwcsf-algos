@@ -62,6 +62,7 @@ These are a list of free online textbooks, video lectures, and visualizations. I
 8. [Design](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/design.md)
 9. [Hashmaps](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/hashmaps.md)
 10. [Big-O](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/big-O.md)
+11. [Stacks and Queues](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/stacks-and-queues.md)
 
 ---
 
