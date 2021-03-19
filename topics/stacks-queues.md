@@ -19,19 +19,19 @@ ___
 Problem Statement | Solution | WWC example
 --- | --- | ---
 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution link](https://leetcode.com/problems/valid-parentheses/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
-[Min Stack](https://leetcode.com/problems/min-stack/) | [Solution discussion](https://leetcode.com/problems/min-stack/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Min Stack](https://leetcode.com/problems/min-stack/) | [Solution discussion](https://leetcode.com/problems/min-stack/discuss/?currentPage=1&orderBy=hot&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
 
 
 ### Medium problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[Binary Tree zig zag level order tree traversal ](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Solution discussion](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
-[Binary Tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution discussion](https://leetcode.com/problems/binary-tree-inorder-traversal/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
-[Basic Calculator - II](https://leetcode.com/problems/basic-calculator-ii/) | [Solution discussion](https://leetcode.com/problems/basic-calculator-ii/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Binary Tree zig zag level order tree traversal ](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Solution discussion](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/discuss/?currentPage=1&orderBy=hot&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Binary Tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution link](https://leetcode.com/problems/binary-tree-inorder-traversal/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Basic Calculator - II](https://leetcode.com/problems/basic-calculator-ii/) | [Solution link](https://leetcode.com/problems/basic-calculator-ii/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
 
 
 ### Hard problems
 Problem Statement | Solution | WWC example
 --- | --- | ---
-[Trapping rain water](https://leetcode.com/problems/trapping-rain-water/) | [Solution discussion](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/discuss/?currentPage=1&orderBy=most_votes&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
-[Largest rectangle in histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution discussion](https://leetcode.com/problems/wiggle-sort-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Trapping rain water](https://leetcode.com/problems/trapping-rain-water/) | [Solution link](https://leetcode.com/problems/trapping-rain-water/solution/) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
+[Largest rectangle in histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution discussion](https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/?currentPage=1&orderBy=hot&query=) | please contribute your solution to our [code examples!](https://github.com/WomenWhoCode/wwcsf-algos/tree/master/code-examples/)
