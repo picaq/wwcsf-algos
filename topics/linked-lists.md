@@ -28,9 +28,9 @@ Don’t let it happen to you!
 * [Deleting a node in a linked list](https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/), by geeksforgeeks. Demonstrates two-pointer technique with code examples in C/C++, Java, and Python 3. 
 
 ### 4. Code Examples
-* Here is a [basic Linked List class](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/code-examples/linked-lists/LinkedList.py) with iterative methods. Look at LinkedList.remove() for an example of two-pointer technique. 
+* Here is a [basic Linked List class](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/code-examples/linked-lists/python/LinkedList.py) with iterative methods. Look at LinkedList.remove() for an example of two-pointer technique. 
 
-* Here is a [Linked List Class](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/code-examples/linked-lists/LinkedListRecursive.py) with some recursive methods
+* Here is a [Linked List Class](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/code-examples/linked-lists/python/LinkedListRecursive.py) with some recursive methods
 ___
 
 ## Problem Sets
