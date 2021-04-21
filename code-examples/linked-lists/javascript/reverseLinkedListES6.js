@@ -18,4 +18,5 @@
         [pointer.next, oldPointer, pointer] = 
         [oldPointer, pointer, pointer.next]        
     }
+    return oldPointer;
 }
